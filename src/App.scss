@@ -1,0 +1,339 @@
+
+.App {
+    text-align: center;
+  }
+  body{
+    width: 87%;
+    max-width: 1020px;
+    margin: 0 auto;
+  }
+  .logo-Rick{
+    display: flex;
+    justify-content: center;
+    padding-bottom:19px;
+  }
+  .button-google{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    button{
+      background: none;
+      border: none;
+      color: #5c5c5f;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      font-family: 'Karla';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21px;
+      color: #000000;
+    }
+    img{
+      width: 40px;
+      border-radius: 20px;
+    }
+  }
+  .block-logOut{
+    display: flex; 
+  }
+  .block-search{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .search-character{
+    width: 98%;
+    height: 56px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    margin-bottom: 58px;
+    padding-left: 2%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+  }
+  input::placeholder {
+    width: 956px;
+    height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+  .button-back{
+    background: none;
+    width: 108px;
+    height: 24px;
+    padding: 21px 0 0 50px;
+  }
+  .block-character-all{
+    width: 100%;
+    display: flex;
+    // justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .block-character{
+    display: flex;
+    height: 244px;
+    margin-left: 15px;
+    align-items: flex-start;
+    padding-bottom: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(44, 41, 41, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+    margin-bottom: 24px;
+  }
+  .link-episodes{
+    text-decoration: none;
+  }
+  .div-image-character{
+    width: 240px;
+    height: 168px;
+    overflow: hidden;
+  }
+  .image-character{
+    width: 100%;
+    height: 115%;
+    border-radius: 4px 4px 0px 0px;
+    
+  }
+  .text-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    width: 208px;
+    height: 30px;
+    margin: 12px 16px 0 16px;
+    text-align: start;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #000000;
+    opacity: 87%;
+  }
+  .text-species{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 1px 16px 0 16px;
+    text-align: start;
+    color: #000000;
+    opacity: 60%;
+  }
+  .link-back{
+    position: absolute;
+    display: flex;
+    width: 150px;
+    height: 41px;
+    left: 50px;
+    top: 23px;
+    text-decoration: none;
+
+    &-content{
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      font-family: 'Karla';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21px;
+      color: #000000;
+
+      .arrow-back_icon{
+        margin-right: 6px;
+      }
+    }
+  }
+  .choice-character-block{
+    padding-top: 46px;
+    padding-bottom: 10%;;
+  }
+  .avatar-character{
+    height: 300px;
+    border: 5px solid #F2F2F7;
+    border-radius: 150px;
+    margin-bottom: 16px;
+  }
+  .name-character-choice{
+    width: 500px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #081F32;
+    margin-bottom: 48px;
+  }
+  .Info-all{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: 0.15px;
+    color: #8E8E93;
+    margin-bottom: 48px;
+  }
+  .block-info{
+    border-bottom:1px #6E798C solid;
+    width: 403px;
+    height: 44px;
+    text-align: start;
+    padding: 10px 0 10px 0;
+  }
+  .name-info{
+    width: 53px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #081F32;
+    text-align: start;
+  }
+  .name-data{
+    height: 20px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #6E798C;
+  }
+  
+  
+  @media (min-width: 320px) and (max-width: 1199px){
+    .logo-Rick{
+      padding: 31px 0 32px 0;
+      img{
+          width: 100%;
+          height: 100%; 
+     }
+    }
+    .search-character{  
+        margin-bottom: 10%;
+    }
+    .block-character-all{
+      justify-content: center;
+    }
+    .block-character{
+      width: 312px;
+      height: 308px;
+      padding: 0;
+      margin-left: 0
+
+    }
+    .div-image-character{
+      width: 312px;
+      height: 232px;
+    }
+    
+    .link-back{
+      left: 20px;
+      width: 86px;
+      top:23px
+    }
+    .link-back-content{
+      font-size: 13px;
+    }
+    .link-back-content .arrow-back_icon{
+      margin-right: 0;
+      width: 20px;
+    }
+    .choice-character-block{
+      padding-bottom: 25%;
+    }
+    .avatar-character{
+      width: 150px;
+      height: 148px;
+    }
+    .name-character-choice{
+      width: 312px;
+      font-size:32px;
+      margin: 0 auto;
+    }
+    .Info-all{
+      margin-bottom: 16px;
+    }
+    .block-info{
+      width: 312px;
+    }
+    .block-logOut{
+      padding-right: 10px;
+      button{
+        font-size: 12px;
+      }     
+    }
+  }
+  @media (min-width: 460px) and (max-width: 997px){  
+  .logo-Rick{
+      margin: 5%;
+      padding-bottom:0;
+  }
+  .block-search{
+      width: 90%;
+  }
+  .search-character{  
+      margin-bottom: 6%;
+  }
+  .block-character{
+    margin: 4px 4px;
+  }
+  }
+  @media (min-width: 565px) and (max-width: 1199px){
+  .search-character{  
+      margin-bottom: 5%;
+  } 
+  .block-character{
+    margin: 2% 2%;
+  }
+  }
+  @media (min-width: 998px) and (max-width: 1199px){
+    .block-logOut{
+      padding-right: 0;
+      button{
+        font-size: 18px;
+      }
+    }
+    .link-back{
+      width: 150px;
+      height: 41px;
+      left: 50px;
+      top: 23px;
+      text-decoration: none;
+    }
+    .link-back-content{
+      font-size: 18px;
+      
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
